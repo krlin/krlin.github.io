@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: lightgrey;
+	color:black;
+	font-family: 'open sans';
+}
+header{
+	background-color: black;
+	padding: 20px;
+	color:#fff;
+	text-align: right;
+	padding-right: 30px;
+
+}
+.head{
+	text-decoration: none;
+	color:#fff;
+	margin-left: 15px;
+}
+a:hover{
+	text-decoration: underline;
+}
+.corpo{
+	text-align: center;
+	margin-top: 75px;
+}
+.perfil{
+	width: 10%;
+	border-radius: 50%;
+	margin-top: 45px;
+	margin-bottom: 50px;
+	box-shadow: 10px 10px 5px darkgrey;
+}
+.html{
+	float: left;
+	width: 45%;
+	margin-top: 35px;
+	margin-right: -25px;
+}
+.desc{
+	float: right;
+	margin-top: 70px;
+	padding-right: 50px;
+}
+h1{
+	font-size: 70px;
+	margin-top: -40px;
+}
+.p1{
+	font-size: 25px;
+	margin: 0 3% 0 3%;
+}
+.p2{
+	font-size: 30px;
+}
+.p3{
+	font-size: 25px;
+}
+.p4{
+	font-size: 25px;
+	margin-left: 25px;
+}
+.art{
+	margin-top: 30%;
+}
+.foot{
+	background-color: black;
+	padding: 30px;
+	color: white;
+	font-size: 10px;
+}
+select{
+	float: right;
+	width: 100px;
+}
+form{
+	color: white;
+	background-color: black;
+	text-align: center;
+	margin-bottom: 50px;
+	padding: 30px;
+	margin-top: 30px;
+}
+input[type="ddd"]{
+	width: 30px;
+	margin-right: 7px;
+	box-shadow: 3px 3px 3px lightgrey;
+}
+input[type="phone"]{
+	box-shadow: 3px 3px 3px lightgrey;
+}
+input[type="name"]{
+	width: 200px;
+	margin-top: 7px;
+	box-shadow: 3px 3px 3px lightgrey;
+}
+input[type="email"]{
+	width: 200px;
+	box-shadow: 3px 3px 3px lightgrey;
+}
+input[type="submit"]{
+	width: 215px;
+	background-color: darkgrey;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px lightgrey;
+	border:solid 1px;
+	border-color: darkgrey;
+	color:#fff;
+}
+input{
+	padding: 5px;
+	margin-bottom: 9px;
+}
+textarea{
+	width: 210px;
+	margin-bottom: 9px;
+	box-shadow: 3px 3px 3px lightgrey;
+}
+.copy{
+	color:white;
+}
+.progresso{
+	background-color: white;
+	width: 90%;
+	margin-bottom: 10px;
+	height: 12px;
+	margin-left: 25px;
+	padding-bottom: 3px;
+}
+.progresso2{
+	background-color: black;
+	width: 20%;
+	color:white;
+	height: 12px;
+	font-size: 10px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	margin-left: -12px;
+}
+.progresso3{
+	background-color: black;
+	width: 90%;
+	color:white;
+	height: 12px;
+	font-size: 10px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	margin-left: -12px;
+}
+.progresso4{
+	background-color: black;
+	width: 5%;
+	color:white;
+	height: 12px;
+	font-size: 10px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	margin-left: -12px;
+}			
+#prog{
+	width: 380px;
+	background-color: darkgrey;
+	margin-right: 5px;
+	margin-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	margin-bottom: 20px;
+}
+.left{
+	float: center;
+}

@@ -168,7 +168,17 @@ textarea{
 	padding-bottom: 3px;
 	padding-left: 5px;
 	margin-left: -12px;
-}			
+}
+.progressosite{
+	background-color: black;
+	width: 40%;
+	color:white;
+	height: 12px;
+	font-size: 10px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	margin-left: -12px;
+}
 #prog{
 	width: 380px;
 	background-color: darkgrey;

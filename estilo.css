@@ -13,7 +13,6 @@ header{
 	color:#fff;
 	text-align: right;
 	padding-right: 30px;
-
 }
 .head{
 	text-decoration: none;
@@ -130,6 +129,16 @@ textarea{
 	margin-left: 25px;
 	padding-bottom: 3px;
 }
+.progresso0{
+	background-color: #666 ;
+	width: calc(100%+10px);
+	color:white;
+	height: 12px;
+	font-size: 10px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	margin-left: -12px;
+}
 .progresso2{
 	background-color: black;
 	width: 20%;
@@ -170,5 +179,16 @@ textarea{
 	margin-bottom: 20px;
 }
 .left{
-	float: center;
+	float: left;
+	margin-right: -25px;
+	padding-left: 50px;
+}
+.right{
+	float: right;
+	padding-right: 60px;
+	margin-left: -25px;
+
+}
+footer{
+	margin-top: 375px;
 }

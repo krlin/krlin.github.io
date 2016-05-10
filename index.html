@@ -10,6 +10,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="shortcut icon" href="http://krlin.github.io/icon.ico">
+	<link rel="stylesheet" href="simplegrid.css">
 	<link rel="stylesheet" type="text/css" href="https://krlin.github.io/estilo.css ">
 </head>
 <body>
@@ -19,102 +20,139 @@
 			<a class="head" href="http://facebook.com/carlos.here"><i class="fa fa-facebook"></i> Facebook</a>
 		</div>
 	</header>
-		<div class="corpo">
-			<h1>Carlos Guimarães</h1>
-			<img class="perfil" src="http://krlin.github.io/foto.jpg">
-			<p class="p1">Estudante de Tecnologia em Sistemas para Internet no IF Sudeste Campus Barbacena, cursando o 1º período. Esta página inicialmente era um exercício da aula de Desenvolvimento de Páginas Web, veio a ser agora meu portfólio para apresentação.</p>
-			<div class="html">
+	<div class="corpo">
+		<h1>Carlos Guimarães</h1>
+		<img class="perfil" src="http://krlin.github.io/foto.jpg">
+		<p class="p1">Estudante de Tecnologia em Sistemas para Internet no IF Sudeste Campus Barbacena, 24 anos, cursando o 1º período. Esta página inicialmente era um exercício da aula de Desenvolvimento de Páginas Web, veio a ser agora meu portfólio para apresentação.</p>
+		<section class="grid grid-pad">
+			<div class="col-1-2">
 				<img  src="http://krlin.github.io/html+css.jpg">
-			</div>	
-			<div class="desc">
-				<p class="p2">No desenvolvimento dessa página foram usados</p>
-				<p class="p2">conheçimentos básicos de HTML5 e CSS3.</p>
-				<p class="p2">Até o fim do periodo devem ser adicionados a</p>
-				<p class="p2">página recursos de JavaScript,</p>
-				<p class="p2">porém isso é o que temos no memento.</p>
-			</div>
-		</div>
-		<article class="art">
-			<p class="p1">O início no curso de TSI foi muito complicado pois trabalhar e estudar não é fácil, a princípio teve uma incompatibilidade de horários que me levou a pensar que não poderia cursar, mas como um milagre de Deus tudo se ajustou e foi possível começar o curso e graças a Deus estou gostando muito, pois é exatamente como eu imagina, justamente o que eu procurava.</p><br>
-			<p class="p1"><strong>Pretenções Futuras</strong></p>
-			<p class="p1">Depois de formado minha intenção é trabalhar com programação e criação de páginas web, pois foram as vertentes do curso pelas quais tive maior afinidade e é uma parte do curso na qual posso utilizar na empresa que trabalho com o intuito de melhorar sistemas de acesso e facilitar nosso trabalho que é todo baseado em sistemas on-line.</p>
-		</article>
-		<section>
-			<form method="post" action="contato.php">
-				<p class="p3">Contato</p>
-				<input type="name" placeholder="Nome"></input><br>
-				<input type="DDD" placeholder="DDD"></input><input type="phone" placeholder="Telefone"></input><br>
-				<input type="email" placeholder="E-mail de contato"></input><br>
-				<textarea placeholder="Mensagem"></textarea><br>
-				<input type="submit" value="Enviar"></input>
-			</form>
-		</section>
-		<section class="bar">
-			<div class="left">	
-				<section>
-					<p class="p4">Progresso da Construção do Site</p>
-					<div id="prog">
-						<div class="progresso">
-							<div class="progressosite">
-							40%
-							</div>			
-						</div>
-					</div>
-				</section>
-				<section>
-					<p class="p4">Nível de Conheçimento Portugol XD</p>
-					<div id="prog">
-						<div class="progresso">
-							<div class="progresso3">
-							90%
-							</div>			
-						</div>
-					</div>
-				</section>
-				<section>
-					<p class="p4">Nível de Conheçimento Programação em C</p>
-					<div id="prog">
-						<div class="progresso">
-							<div class="progresso4">
-							5%
-							</div>			
-						</div>
-					</div>
-				</section>
-			</div>
-			<div class="right">
-				<section>
-					<p class="p4">Nível de Conheçimento HTML 5</p>
-					<div id="prog">
-						<div class="progresso">
-							<div class="progresso2">
-							20%
-							</div>			
-						</div>
-					</div>
-				</section>
-				<section>
-					<p class="p4">Nível de Conheçimento CSS 3</p>
-					<div id="prog">
-						<div class="progresso">
-							<div class="progresso2">
-							20%
-							</div>			
-						</div>
-					</div>
-				</section>
-				<section>
-					<p class="p4">Nível de Conheçimento JavaScript</p>
-					<div id="prog">
-						<div class="progresso">
-							<div class="progresso0">
-							Ainda Serei Apresentado
-							</div>			
-						</div>
-					</div>
-				</section>
+			</div>		
+			<div class="col-1-2">
+				<div>
+					<p class="p2">No desenvolvimento dessa página foram usados
+					conheçimentos básicos de HTML5 e CSS3.
+					Até o fim do periodo devem ser adicionados a
+					página recursos de JavaScript,
+					porém isso é o que temos no memento.</p>
+				</div>	
 			</div>
 		</section>	
+	</div>
+	<article class="art">
+		<p class="p1">O início no curso de TSI foi muito complicado pois trabalhar e estudar não é fácil, a princípio teve uma incompatibilidade de horários que me levou a pensar que não poderia cursar, mas como um milagre de Deus tudo se ajustou e foi possível começar o curso e graças a Deus estou gostando muito, pois é exatamente como eu imagina, justamente o que eu procurava.</p>
+	</article>
+	<article class="trab">
+		<p class="p3">Meus Trabalhos</p>
+		<div class="grid grid-pad">
+			<div class="col-1-4">
+				<a href=""><img src="trab1.png" width="100%"></a>
+			</div>
+			<div class="col-1-4">
+				<a href=""><img src="trab2.png" width="100%"></a>
+			</div>
+			<div class="col-1-4">
+				<a href=""><img src="trab3.png" width="100%"></a>
+			</div>
+			<div class="col-1-4">
+				<a href=""><img src="trab4.png" width="100%"></a>
+			</div>
+		</div>
+		<div class="grid grid-pad">
+			<div class="col-1-4">
+				<a href=""><img src="trab5.png" width="100%"></a>
+			</div>
+			<div class="col-1-4">
+				<a href=""><img src="trab6.png" width="100%"></a>
+			</div>
+			<div class="col-1-4">
+				<a href=""><img src="trab7.png" width="100%"></a>
+			</div>
+			<div class="col-1-4">
+				<a href=""><img src="trab8.png" width="100%"></a>
+			</div>
+		</div>
+	</article>
+	<article>
+		<p class="p1"><strong>Pretenções Futuras</strong></p>
+		<p class="p1">Depois de formado minha intenção é trabalhar com programação e criação de páginas web, pois foram as vertentes do curso pelas quais tive maior afinidade e é uma parte do curso na qual posso utilizar na empresa que trabalho com o intuito de melhorar sistemas de acesso e facilitar nosso trabalho que é todo baseado em sistemas on-line.</p>
+	</article>
+	<section>
+		<form method="post" action="contato.php">
+			<p>Contato</p>
+			<input type="name" placeholder="Nome"></input><br>
+			<input type="DDD" placeholder="DDD"></input><input type="phone" placeholder="Telefone"></input><br>
+			<input type="email" placeholder="E-mail de contato"></input><br>
+			<textarea placeholder="Mensagem"></textarea><br>
+			<input type="submit" value="Enviar"></input>
+		</form>
+	</section>
+	<section class="grid grid-pad">
+		<div class="col-1-2">	
+			<section>
+				<p class="b4">Progresso da Construção do Site</p>
+				<div id="prog">
+					<div class="progresso">
+						<div class="progressosite">
+						50%
+						</div>			
+					</div>
+				</div>
+			</section>
+			<section>
+				<p class="b4">Nível de Conheçimento Portugol XD</p>
+				<div id="prog">
+					<div class="progresso">
+						<div class="progresso3">
+						90%
+						</div>			
+					</div>
+				</div>
+			</section>
+			<section>
+				<p class="b4">Nível de Conheçimento Programação em C</p>
+				<div id="prog">
+					<div class="progresso">
+						<div class="progresso4">
+						10%
+						</div>			
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="col-1-2">
+			<section>
+				<p class="b4">Nível de Conheçimento HTML 5</p>
+				<div id="prog">
+					<div class="progresso">
+						<div class="progresso2">
+						35%
+						</div>			
+					</div>
+				</div>
+			</section>
+			<section>
+				<p class="b4">Nível de Conheçimento CSS 3</p>
+				<div id="prog">
+					<div class="progresso">
+						<div class="progresso2">
+						35%
+						</div>			
+					</div>
+				</div>
+			</section>
+			<section>
+				<p class="b4">Nível de Conheçimento JavaScript</p>
+				<div id="prog">
+					<div class="progresso">
+						<div class="progresso0">
+						Ainda Serei Apresentado
+						</div>			
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>	
 	<footer>
 		<div class="foot">
 			Copyright 2016 <i class="fa fa-copyright copy"></i>

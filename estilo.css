@@ -128,11 +128,9 @@ input{
 	border-radius: 3px;
 }
 input:focus{
-	border: solid 3px black;
 	box-shadow: 3px 3px 3px lightgrey;
 }
 textarea:focus{
-	border: solid 3px black;
 	box-shadow: 3px 3px 3px lightgrey;
 }
 textarea{

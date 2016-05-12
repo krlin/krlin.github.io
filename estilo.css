@@ -125,10 +125,13 @@ input[type="submit"]{
 	width: 215px;
 	background-color: darkgrey;
 	border-radius: 3px;
-	box-shadow: 3px 3px 3px lightgrey;
 	border:solid 1px;
 	border-color: darkgrey;
 	color:#fff;
+}
+input[type="submit"]:hover{
+	box-shadow: 3px 3px 3px lightgrey;
+	transform:scale(1.1);
 }
 input{
 	padding: 5px;
